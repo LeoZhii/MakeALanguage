@@ -1,3 +1,5 @@
+#run with command "python programming_language.py test.test"
+
 import sys
 
 #Store Script
