@@ -5,6 +5,9 @@
 #include <fstream>
 #include <vector>
 
+//build with "g++ complex_programming_template.cpp -std=c++20"
+//run "./a.out test.test"
+
 //vector to store pointer instructions
 std::vector <std::function<void()>> call_stack;
 
