@@ -2,6 +2,9 @@ use std::env;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
 
+//compile with: rustc rust_programming_language_basic_template.rs
+//run with: ./rust_programming_language_basic_template test.test
+
 fn build_codex(codex: &mut Vec<String>, name: &str) {
     //open file from input name
     let script = File::open(name).expect("Failed to open file");
