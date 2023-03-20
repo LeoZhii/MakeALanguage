@@ -6,6 +6,8 @@
 #include "hash_c_ver.h"
 
 //I make no claims about this code being memory safe and frankly I am too afraid to ask
+//compile with: gcc c_programming_language_intermediate_template.c
+//run with ./a.out test.test
 
 #define MAX_LINE_LENGTH 1000
 
